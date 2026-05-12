@@ -18,7 +18,7 @@ class SearchView extends GetView<ProductSearchController> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 12),
-            _buildSearchBar(),
+            buildSearchBar(),
             const SizedBox(height: 16),
             Expanded(
               child: Obx(() {
@@ -31,9 +31,9 @@ class SearchView extends GetView<ProductSearchController> {
                   );
                 }
                 if (controller.hasSearched.value) {
-                  return _buildSearchResults();
+                  return buildSearchResults();
                 }
-                return _buildRecentSection();
+                return buildRecentSection();
               }),
             ),
           ],
@@ -44,7 +44,7 @@ class SearchView extends GetView<ProductSearchController> {
 
   // ── Search Bar ──────────────────────────────────────────────────────────────
 
-  Widget _buildSearchBar() {
+  Widget buildSearchBar() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Row(
@@ -133,7 +133,7 @@ class SearchView extends GetView<ProductSearchController> {
 
   // ── Recent Section (before search) ─────────────────────────────────────────
 
-  Widget _buildRecentSection() {
+  Widget buildRecentSection() {
     return SingleChildScrollView(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Column(
@@ -183,7 +183,7 @@ class SearchView extends GetView<ProductSearchController> {
 
   // ── Search Results ──────────────────────────────────────────────────────────
 
-  Widget _buildSearchResults() {
+  Widget buildSearchResults() {
     return Obx(() {
       final results = controller.searchResults;
       final query = controller.searchQuery.value;

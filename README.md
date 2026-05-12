@@ -96,7 +96,7 @@ git clone https://github.com/your-username/top_100_flutter_ui.git
 ## 2️⃣ Go to Project Folder
 
 ```bash
-cd top_100_flutter_ui
+cd furniture app
 ```
 
 ## 3️⃣ Install Packages
@@ -182,7 +182,7 @@ Contributions are welcome!
 
 # ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub.
+https://buymeacoffee.com/smtechviral
 
 ---
 
