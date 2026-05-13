@@ -41,9 +41,9 @@ This project showcases beautifully designed Flutter screens, reusable widgets, s
 # 📱 Screenshots
 
 
-| Onboarding Screen | Welcome Screen | SignIn Screen                                |
-|------------------------------------|------------------------------------------------|----------------------------------------------|
-| <img src="assets/ss/onboard.png" /> | <img src="assets/ss/welcome.png" width="200" /> | <img src="assets/ss/sign.png" width="200" /> |
+| Onboarding Screen                    | Welcome Screen | SignIn Screen                                |
+|--------------------------------------|------------------------------------------------|----------------------------------------------|
+| <img src="assets/ss/onboard.png" width="200"  /> | <img src="assets/ss/welcome.png" width="200" /> | <img src="assets/ss/sign.png" width="200" /> |
 
 
 | Home Screen | Details Screen | Cart Screen                                  |
