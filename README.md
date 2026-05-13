@@ -42,7 +42,7 @@ This project showcases beautifully designed Flutter screens, reusable widgets, s
 
 | Home Screen | Details Screen | Responsive UI |
 |---|---|---|
-| Add screenshots here | Add screenshots here | Add screenshots here |
+| <img src="assets/ss/home.png" width="200" /> | <img src="assets/ss/details.png" width="200" /> | <img src="assets/ss/cart.png" width="200" /> |
 
 ---
 
