@@ -40,9 +40,20 @@ This project showcases beautifully designed Flutter screens, reusable widgets, s
 
 # 📱 Screenshots
 
-| Home Screen | Details Screen | Responsive UI |
-|---|---|---|
+
+| Onboarding Screen | Welcome Screen | SignIn Screen                                |
+|------------------------------------|------------------------------------------------|----------------------------------------------|
+| <img src="assets/ss/onboard.png" /> | <img src="assets/ss/welcome.png" width="200" /> | <img src="assets/ss/sign.png" width="200" /> |
+
+
+| Home Screen | Details Screen | Cart Screen                                  |
+|---|---|----------------------------------------------|
 | <img src="assets/ss/home.png" width="200" /> | <img src="assets/ss/details.png" width="200" /> | <img src="assets/ss/cart.png" width="200" /> |
+
+
+| Wishlist Screen | Search Screen | Cart Screen                                  |
+|---------------------------------------------------|-------------------------------------------------|----------------------------------------------|
+| <img src="assets/ss/whishlist.png" width="200" /> | <img src="assets/ss/search.png" width="200" /> | <img src="assets/ss/cart.png" width="200" /> |
 
 ---
 

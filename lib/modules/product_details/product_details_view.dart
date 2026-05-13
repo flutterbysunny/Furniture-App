@@ -21,6 +21,7 @@ class ProductDetailView extends GetView<ProductDetailController> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  SizedBox(height: 12,),
                   buildImageSection(),
                   buildDetailsCard(),
                 ],
