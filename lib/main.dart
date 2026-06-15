@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, deviceType) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          title: "Ev Charging",
+          title: "Furniture App",
 
           builder: (context, child) => ResponsiveBreakpoints.builder(
             child: BouncingScrollWrapper.builder(context, child!),
