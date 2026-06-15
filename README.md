@@ -154,6 +154,7 @@ Built using responsive layout techniques and scalable UI components.
 - Hero animations
 - Clean typography
 - Premium design patterns
+- Shimmer Add
 
 ---
 
@@ -176,6 +177,8 @@ Built using responsive layout techniques and scalable UI components.
 - API Integration
 - Dark Theme Enhancements
 - Localization Support
+- Web View Support
+
 
 ---
 
