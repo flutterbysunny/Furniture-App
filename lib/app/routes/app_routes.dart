@@ -1,3 +1,7 @@
+import 'package:furniture_app/modules/add_card/add_card_bindings.dart';
+import 'package:furniture_app/modules/add_card/add_card_view.dart';
+import 'package:furniture_app/modules/checkout/checkout_bindings.dart';
+import 'package:furniture_app/modules/checkout/checkout_view.dart';
 import 'package:furniture_app/modules/dashboard/dashboard_bindings.dart';
 import 'package:furniture_app/modules/dashboard/dashboard_view.dart';
 import 'package:furniture_app/modules/forgot_password/forgot_password_bindings.dart';
@@ -12,6 +16,8 @@ import 'package:furniture_app/modules/my_wishlist/my_wishlist_bindings.dart';
 import 'package:furniture_app/modules/my_wishlist/my_wishlist_view.dart';
 import 'package:furniture_app/modules/onboarding/onboarding_binding.dart';
 import 'package:furniture_app/modules/onboarding/onboarding_view.dart';
+import 'package:furniture_app/modules/payment/payment_bindings.dart';
+import 'package:furniture_app/modules/payment/payment_view.dart';
 import 'package:furniture_app/modules/product_details/product_details_bindings.dart';
 import 'package:furniture_app/modules/product_details/product_details_view.dart';
 import 'package:furniture_app/modules/profile/profile_binding.dart';
@@ -20,6 +26,8 @@ import 'package:furniture_app/modules/review/review_bindings.dart';
 import 'package:furniture_app/modules/review/review_view.dart';
 import 'package:furniture_app/modules/search/search_bindings.dart';
 import 'package:furniture_app/modules/search/search_view.dart';
+import 'package:furniture_app/modules/shipping_address/shipping_address_bindings.dart';
+import 'package:furniture_app/modules/shipping_address/shipping_address_view.dart';
 import 'package:furniture_app/modules/sign_in/sign_in_binding.dart';
 import 'package:furniture_app/modules/sign_in/sign_in_view.dart';
 import 'package:furniture_app/modules/sign_up/sign_up_binding.dart';
@@ -51,6 +59,11 @@ class AppRoutes {
   static String reviewScreen = '/review_screen';
   static String wishlistScreen = '/wishlist_screen';
   static String productSearchScreen = '/product_search_screen';
+  static String checkoutScreen = '/checkout_screen';
+  static String shippingAddressScreen = '/shipping_address';
+  static String paymentScreen = '/payment_address';
+  static String cardScreen = '/card_address';
+
 
 
   static List<GetPage> pages = [
@@ -142,6 +155,30 @@ class AppRoutes {
       name: productSearchScreen,
       page: () =>  SearchView(),
       binding: SearchBinding(),
+    ),
+
+    GetPage(
+      name: checkoutScreen,
+      page: () =>  CheckoutView(),
+      binding: CheckoutBinding(),
+    ),
+
+    GetPage(
+      name: shippingAddressScreen,
+      page: () =>  ShippingAddressScreen(),
+      binding: ShippingAddressBinding(),
+    ),
+
+    GetPage(
+      name: paymentScreen,
+      page: () =>  PaymentView(),
+      binding: PaymentBinding(),
+    ),
+
+    GetPage(
+      name: cardScreen,
+      page: () =>  AddCardView(),
+      binding: AddCardBinding(),
     ),
 
   ];

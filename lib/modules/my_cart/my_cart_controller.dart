@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:furniture_app/app/routes/app_routes.dart';
 import 'package:get/get.dart';
 
 import '../../app/models/cart_item_model.dart';
@@ -137,6 +138,7 @@ class MyCartController extends GetxController {
           borderRadius: 12);
       return;
     }
+    Get.toNamed(AppRoutes.checkoutScreen);
     // TODO: Get.toNamed('/checkout');
   }
 

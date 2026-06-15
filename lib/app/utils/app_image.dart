@@ -4,6 +4,7 @@ class AppImages {
   static String appLogo = "${base}appLogo.png";
   static String appleLogo = "${base}appleLogo.png";
   static String googleLogo = "${base}google.png";
+  static String paypalLogo = "${base}paypal.png";
   static String fbLogo = "${base}facebook.png";
   static String downArrow = "${base}down_arrow.png";
 
@@ -29,6 +30,7 @@ class AppImages {
   static String filterIcon = "${base}filterIc.png";
   static String locationIcon = "${base}locationIc.png";
   static String searchIcon = "${base}searchIc.png";
+  static String economicIcon = "${base}box.png";
 
 
 
