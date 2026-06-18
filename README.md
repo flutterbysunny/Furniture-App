@@ -178,6 +178,9 @@ Built using responsive layout techniques and scalable UI components.
 - Dark Theme Enhancements
 - Localization Support
 - Web View Support
+- API Supports
+- Real Time Chat
+- Calling Functionality
 
 
 ---
